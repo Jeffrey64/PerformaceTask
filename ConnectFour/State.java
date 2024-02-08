@@ -70,7 +70,7 @@ public class State
         if (total == -4 || total == 4) return true;
         return false;
     }
-
+    //
     public boolean isTie() {
         for (int row = 0; row<Constants.BOARD_SIZE; row++) {
             for (int col=0; col<Constants.BOARD_SIZE; col++) {
