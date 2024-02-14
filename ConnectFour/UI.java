@@ -65,14 +65,14 @@ public class UI
         }
         return col;
     }
-
+    
     public boolean startNewGame() {
         System.out.println(Constants.START_NEW_GAME);
         String yesOrNo = scanner.next();
         return yesOrNo.equals("Y") || yesOrNo.equals("y");
     }
-
-    // Printing text methods
+    
+    // Printing text methodss
     public void printWelcome() {
         System.out.println(Constants.TITLE);
     }
