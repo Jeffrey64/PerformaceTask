@@ -51,8 +51,8 @@ public class UI
             }
         }
         return row;
-    }
-
+    }  
+    
     public int getMoveCol(int whoseMove, String xName, String oName) {
         int col = 0;
         while (col <= 0 || col >= 8) {
