@@ -11,7 +11,7 @@ public class EventLoop {
         EventLoop eventLoop = new EventLoop();
         eventLoop.run();
     }
-
+    //
     public void run() {
         while (state.getGameState() != Constants.QUIT_PROGRAM) {
             int gameState = state.getGameState();
